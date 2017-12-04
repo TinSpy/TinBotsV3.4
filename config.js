@@ -1,0 +1,17 @@
+var config = {};
+config.account = {};
+config.verbosityLevel = 1;
+config.userAgent = 'ogar-feeder-bot';
+config.feederServer = "ws://127.0.0.1:8081";
+config.serverPort = 8081; 
+config.client_uuid = "ThixBotsV2"; 
+config.proxies = "proxy.txt";
+config.botsPerIp = 2;
+config.onboardingTimer = 120;
+config.maxBots = 401;
+config.useRandomSkinName = true; 
+config.useStaticName = "TinBots";
+config.botMode = "default";
+config.minimumMassBeforeFeed = 0;
+config.enableSaveMoveTo = false;
+module.exports = config;
